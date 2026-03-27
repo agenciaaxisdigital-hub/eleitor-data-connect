@@ -125,7 +125,7 @@ const AssociadoForm = () => {
       toast.error("Erro ao salvar: " + error.message);
     } else {
       toast.success(isNew ? "Associado cadastrado!" : "Associado atualizado!");
-      navigate("/dashboard");
+      navigate("/associados");
     }
   };
 
