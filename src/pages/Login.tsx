@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Lock, User } from "lucide-react";
-import logo from "@/assets/sindspag-logo.png";
+
 
 const Login = () => {
   const { login } = useAuth();
